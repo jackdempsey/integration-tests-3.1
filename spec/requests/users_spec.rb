@@ -7,10 +7,10 @@ describe "Users" do
       get users_path
       response.body.should include("New User")
 
-      puts response.body
-
       click_link 'New User'
 
+      response.body.should include("form")
+      response.body.should include("Back")
     end
   end
 end
