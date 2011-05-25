@@ -26,5 +26,5 @@ gem 'jquery-rails'
 # gem 'ruby-debug'
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', :git => 'git://github.com/rspec/rspec-rails.git'
 end

@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/rspec/rspec-rails.git
+  revision: 02394e636d3c3c40a3b8018aa20442dba7e80e2f
+  specs:
+    rspec-rails (2.6.1.beta1)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      railties (~> 3.0)
+      rspec (~> 2.6.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -87,11 +97,6 @@ GEM
     rspec-expectations (2.6.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.6.0)
-    rspec-rails (2.6.0)
-      actionpack (~> 3.0)
-      activesupport (~> 3.0)
-      railties (~> 3.0)
-      rspec (~> 2.6.0)
     sass (3.1.1)
     sprockets (2.0.0.beta.8)
       hike (~> 1.0)
@@ -116,7 +121,7 @@ DEPENDENCIES
   json
   rails (= 3.1.0.rc1)
   rake (~> 0.8.7)
-  rspec-rails
+  rspec-rails!
   sass
   sqlite3
   uglifier
