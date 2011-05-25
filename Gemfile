@@ -27,5 +27,5 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails', :git => 'git://github.com/rspec/rspec-rails.git'
-  gem 'webrat'
+  gem 'capybara'
 end
